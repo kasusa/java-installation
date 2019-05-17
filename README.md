@@ -1,9 +1,11 @@
 # 解决下载安装配置java的困难
 
 - ### [「下載java jdk」](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
-  
-- ## 在win下还是要用我的电脑的属性。
+
 - ## ~~使用管理員運行`cmd`來配置~~
+
+  
+ 在win下还是要用我的电脑的属性。
 
  1. `SET JAVA_HOME=（自己jdk的安装目录）`
  2. `SET CLASSPATH=.`
