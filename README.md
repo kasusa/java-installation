@@ -19,12 +19,12 @@
 ---
 # 解决下载安装配置gcc的困難
 
-1. [mingw下載站](http://www.mingw.org/)
-2. 記得開啓翻qiang
-3. 安裝所有`mingw32-gcc-g++`以及`mingw32-gdb`開頭的東西
-4. 运行 `sysdm.cpl`直接打开环境变量
-5. 编辑`Path`
-6. 点击“新建”，并输入`C:\MinGW\bin`（如果自行更改了MinGW的安装路径请自行对照修改此处的路径）
-7. 全部点“确定”关闭所有对话框。
+- [mingw下載站](http://www.mingw.org/)
+1. fan qiang
+2. 安裝所有`mingw32-gcc-g++`以及`mingw32-gdb`开头的东西
+3. 运行 `sysdm.cpl`直接打开环境变量
+4. 编辑`Path`
+5. 点击“新建”，并输入`C:\MinGW\bin`（如果自行更改了MinGW的安装路径请自行对照修改此处的路径）
+6. 全部点“确定”关闭所有对话框。
   ## 驗證
-控制臺输入`gcc -v`确认是否已经成功安装
+控制台输入`gcc -v`确认是否已经成功安装
