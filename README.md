@@ -22,7 +22,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 
   ## 驗證
 
-输入`java`或者`javac`确认是否已经成功安装
+输入`java`或者`javac`或者`java -version`确认是否已经成功安装
 
 ---
 # 解决下载安装配置gcc的困難
