@@ -3,7 +3,7 @@
 - [「下載java jdk」](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
 
 - ~~使用管理員運行`cmd`來配置这样根本没有用！~~
-  
+## win
  在win下要使用我的电脑=>的属性。
  也运行 `sysdm.cpl`直接打开环境变量
 
@@ -11,6 +11,14 @@
  2. `SET CLASSPATH=.`
  3. `SET CLASSPATH=%JAVA_HOME%\lib`（%JAVA_HOME%的意思是取得JAVA_HOME代表的值)
  4. `SET Path=%JAVA_HOME%\bin`
+ ## linux
+`[root@lyh:] # vi /etc/profile`
+在文件最下方或者指定文件添加
+```
+export JAVA_HOME=/usr/local/java/jdk1.8.0_161
+export CLASSPATH=$:CLASSPATH:$JAVA_HOME/lib/
+export PATH=$PATH:$JAVA_HOME/bin
+```
 
   ## 驗證
 
