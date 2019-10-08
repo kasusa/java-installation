@@ -63,3 +63,6 @@ java ：
 
 git ：
 `apt install git`
+
+c/c++ :
+gcc g++ gdb 
