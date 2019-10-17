@@ -5,6 +5,15 @@
 [配置electron-ssr](#配置electron-ssr) |
 [设置谷歌浏览器和vscode的外观](#设置谷歌浏览器和vscode的外观) |
 [搞主题](#搞主题)
+## 时间的校准
+时间和windows会冲突，要改[时间校准配置](https://blog.csdn.net/White_Idiot/article/details/78039660)
+
+```
+sudo apt-get install ntpdate
+sudo ntpdate time.windows.com
+sudo hwclock --localtime --systohc
+```
+
 ## 添加控制中心快捷键
 
 把下面的代码放进`设置-键盘和语言-快捷键-自定义`里面，并且自定义快捷键
