@@ -4,7 +4,8 @@
 [把文件浏览器换成默认](#把文件浏览器换成默认) |
 [配置electron-ssr](#配置electron-ssr) |
 [设置谷歌浏览器和vscode的外观](#设置谷歌浏览器和vscode的外观) |
-[搞主题](#搞主题)
+[创建桌面快捷方式](#创建桌面快捷方式)
+[搞主题](#搞主题) | 
 ## 时间的校准
 时间和windows会冲突，要改[时间校准配置](https://blog.csdn.net/White_Idiot/article/details/78039660)
 
