@@ -55,6 +55,18 @@ xdg-mime default dde-file-manager.desktop inode/directory
 1. 搜索 `Title bar Style`
 2. 更改为 `custom`
 
+## 创建桌面快捷方式
+1. 创建一个文本文件如下格式
+2. 后缀名自改成 `desktop`
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=someicon               //这里填写图标的目录
+Exec=sh /path/to/studio.sh  //这里再“sh ”的右边填写studio.sh的目录
+Name=Android Studio
+```
 ## 安装字体
 [firacode](https://github.com/tonsky/FiraCode)
 
@@ -66,7 +78,7 @@ xdg-mime default dde-file-manager.desktop inode/directory
 [chrome](https://www.google.com/chrome/) |
 
 [gitkraken](https://www.gitkraken.com)
-## 控制台安装
+## 必装的一些软件--v控制台安装
 java ：
 `apt-get install default-jdk`
 
