@@ -12,7 +12,10 @@
  3. `SET CLASSPATH=%JAVA_HOME%\lib`（%JAVA_HOME%的意思是取得JAVA_HOME代表的值)
  4. `SET Path=%JAVA_HOME%\bin`
  ## linux
- 在上面链接下好直接安装就好不用配制
+1. [先安装好国内源](https://blog.csdn.net/u012308586/article/details/102953882)
+2. 在命令行输入`java -version` 会有提示
+3. 安装第一个(default)
+  
   ## 驗證
 
 输入`java`或者`javac`或者`java -version`确认是否已经成功安装
