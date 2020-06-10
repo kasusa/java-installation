@@ -19,6 +19,8 @@
             "colorScheme":  "Calamity",
             "acrylicOpacity" : 0.7,
             "useAcrylic" : true,
+            "cursorColor": "#00fd15",
+            "cursorShape": "emptyBox",
             "fontFace": "Fira Code"
             // Put settings here that you want to apply to all profiles
         },
